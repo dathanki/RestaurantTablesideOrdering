@@ -1,0 +1,36 @@
+
+<ion-header>
+
+    <ion-navbar color="dark">
+      <ion-title>{{item?.name}}</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  <ion-content padding>
+  
+    <ion-item>
+      <ion-label>Name: </ion-label>
+      <ion-input [(ngModel)]="item.name" placeholder="Enter name"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Quantity: </ion-label>
+      <ion-input [(ngModel)]="item.quantity" type="number" placeholder="Enter quantity"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Mods: </ion-label>
+      <ion-input [(ngModel)]="item.mods" placeholder="Any Mods?"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Need cutlery? </ion-label>
+      <ion-checkbox color="primary" [(ngModel)]="item.cut" placeholder="Save the planet"></ion-checkbox> 
+    </ion-item>
+  
+    <button ion-button block clear (click)="saveItem
+    (item)">Save</button>
+    <button ion-button block clear color="danger" (click)="removeItem(item)">Delete</button>
+  
+  </ion-content>
