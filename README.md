@@ -21,4 +21,4 @@ A simple restaurant table-side food ordering application, my idea was to create 
 - Easy to use for untrained staff
 
 ## Credit 
-- [Youtube Playlist on AngularFire and Firebase](https://www.youtube.com/playlist?list=PLtKjv92L0ihAkTsq7-mxOGk8NrSXV7MY7)
+- [Youtube Playlist on AngularFire and Ionic](https://www.youtube.com/playlist?list=PLtKjv92L0ihAkTsq7-mxOGk8NrSXV7MY7)
